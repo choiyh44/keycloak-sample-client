@@ -1,0 +1,15 @@
+server:
+   port: 80
+
+keycloak:
+  realm: myrealm
+  # client
+  resource: demo-fo
+  # keycloak URL
+  auth-server-url: http://localhost:8080
+  ssl-required: external
+  credentials.secret: liGNeLun6LV6qFLWDVzNE06WabQLVNRf
+  use-resource-role-mappings: true
+  enabled: true
+  
+debug: true
